@@ -6496,5 +6496,176 @@
         "premium_pct": 1.2579
       }
     }
+  },
+  {
+    "date": "2026-10-18",
+    "retrieved_at": "2026-10-18T03:47:19.263Z",
+    "timezone": "Asia/Seoul",
+    "fx": {
+      "source": "Frankfurter (ECB reference rate)",
+      "source_url": "https://api.frankfurter.dev/v1/latest?base=EUR&symbols=USD,GBP,JPY,KRW",
+      "rates": {
+        "GBP": 0.84385,
+        "JPY": 177.82,
+        "KRW": 1499.01,
+        "USD": 1.1253
+      },
+      "source_observed_at": "2026-10-16"
+    },
+    "assets": {
+      "bitcoin": {
+        "label": "비트코인",
+        "domestic": {
+          "source": "Upbit",
+          "source_url": "https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH,KRW-XRP",
+          "price_krw": 110710000,
+          "unit": "KRW",
+          "source_observed_at": "2026-10-18T03:47:19.237Z"
+        },
+        "global": {
+          "source": "CoinGecko",
+          "source_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,ripple&vs_currencies=usd,eur,gbp,jpy&include_last_updated_at=true",
+          "unit": "USD (외 3개 통화)",
+          "source_observed_at": "2026-10-18T03:47:08.000Z"
+        },
+        "hubs": [
+          {
+            "key": "usd",
+            "label": "뉴욕",
+            "currency": "USD",
+            "price": 81916,
+            "implied_krw": 109120148.55,
+            "premium_pct": 1.457
+          },
+          {
+            "key": "eur",
+            "label": "프랑크푸르트",
+            "currency": "EUR",
+            "price": 72909,
+            "implied_krw": 109291320.09,
+            "premium_pct": 1.2981
+          },
+          {
+            "key": "gbp",
+            "label": "런던",
+            "currency": "GBP",
+            "price": 61462,
+            "implied_krw": 109180722.43,
+            "premium_pct": 1.4007
+          },
+          {
+            "key": "jpy",
+            "label": "도쿄",
+            "currency": "JPY",
+            "price": 12944027,
+            "implied_krw": 109117230.42,
+            "premium_pct": 1.4597
+          }
+        ],
+        "premium_pct": 1.457
+      },
+      "ethereum": {
+        "label": "이더리움",
+        "domestic": {
+          "source": "Upbit",
+          "source_url": "https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH,KRW-XRP",
+          "price_krw": 3275000,
+          "unit": "KRW",
+          "source_observed_at": "2026-10-18T03:47:00.622Z"
+        },
+        "global": {
+          "source": "CoinGecko",
+          "source_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,ripple&vs_currencies=usd,eur,gbp,jpy&include_last_updated_at=true",
+          "unit": "USD (외 3개 통화)",
+          "source_observed_at": "2026-10-18T03:47:08.000Z"
+        },
+        "hubs": [
+          {
+            "key": "usd",
+            "label": "뉴욕",
+            "currency": "USD",
+            "price": 2423.3,
+            "implied_krw": 3228073.34,
+            "premium_pct": 1.4537
+          },
+          {
+            "key": "eur",
+            "label": "프랑크푸르트",
+            "currency": "EUR",
+            "price": 2156.83,
+            "implied_krw": 3233109.74,
+            "premium_pct": 1.2957
+          },
+          {
+            "key": "gbp",
+            "label": "런던",
+            "currency": "GBP",
+            "price": 1818.2,
+            "implied_krw": 3229839.41,
+            "premium_pct": 1.3982
+          },
+          {
+            "key": "jpy",
+            "label": "도쿄",
+            "currency": "JPY",
+            "price": 382918,
+            "implied_krw": 3227971.61,
+            "premium_pct": 1.4569
+          }
+        ],
+        "premium_pct": 1.4537
+      },
+      "ripple": {
+        "label": "리플",
+        "domestic": {
+          "source": "Upbit",
+          "source_url": "https://api.upbit.com/v1/ticker?markets=KRW-BTC,KRW-ETH,KRW-XRP",
+          "price_krw": 1760,
+          "unit": "KRW",
+          "source_observed_at": "2026-10-18T03:47:17.035Z"
+        },
+        "global": {
+          "source": "CoinGecko",
+          "source_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,ripple&vs_currencies=usd,eur,gbp,jpy&include_last_updated_at=true",
+          "unit": "USD (외 3개 통화)",
+          "source_observed_at": "2026-10-18T03:47:08.000Z"
+        },
+        "hubs": [
+          {
+            "key": "usd",
+            "label": "뉴욕",
+            "currency": "USD",
+            "price": 1.3,
+            "implied_krw": 1731.73,
+            "premium_pct": 1.6326
+          },
+          {
+            "key": "eur",
+            "label": "프랑크푸르트",
+            "currency": "EUR",
+            "price": 1.16,
+            "implied_krw": 1738.85,
+            "premium_pct": 1.2162
+          },
+          {
+            "key": "gbp",
+            "label": "런던",
+            "currency": "GBP",
+            "price": 0.976468,
+            "implied_krw": 1734.59,
+            "premium_pct": 1.4648
+          },
+          {
+            "key": "jpy",
+            "label": "도쿄",
+            "currency": "JPY",
+            "price": 205.65,
+            "implied_krw": 1733.61,
+            "premium_pct": 1.522
+          }
+        ],
+        "premium_pct": 1.6326
+      }
+    }
   }
 ]
